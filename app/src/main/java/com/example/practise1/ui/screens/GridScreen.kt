@@ -17,7 +17,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun GridScreen(navController: NavController) {
-    val itemsList = List(6) { "Элемент ${it + 1}" }
+    val itemsList = List(8) { "Элемент ${it + 1}" }
 
     Scaffold(
         topBar = {
@@ -44,7 +44,7 @@ fun GridScreen(navController: NavController) {
                     Card(
                         modifier = Modifier
                             .padding(8.dp)
-                            .clickable { navController.navigate("screen_detail") }
+                            .clickable { navController.navigate("screen_detail2") }
                     ) {
                         Box(
                             modifier = Modifier

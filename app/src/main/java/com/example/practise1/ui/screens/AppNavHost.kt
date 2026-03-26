@@ -15,6 +15,7 @@ fun AppNavHost(navController: NavHostController, modifier: Modifier = Modifier) 
         modifier = modifier
     ) {
         composable("screen_list") { ListScreen(navController) }
+        composable("screen_detail2"){ DetailScreen2(navController)}
         composable("screen_form") { FormScreen(navController) }
         composable("screen_grid") { GridScreen(navController) }
         composable("screen_detail") { DetailScreen(navController) }

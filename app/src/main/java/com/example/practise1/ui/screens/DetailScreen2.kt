@@ -13,7 +13,7 @@ import coil.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DetailScreen(navController: NavController) {
+fun DetailScreen2(navController: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -31,7 +31,7 @@ fun DetailScreen(navController: NavController) {
             .padding(padding)
             .padding(16.dp)) {
             AsyncImage(
-                model = "https://sun9-28.userapi.com/s/v1/ig2/b04CU1f9Gm9auNgZLuUdUKEAqC75IQgMtRVYGmNvEQLwPEST8F2-yN-gKxHnCf6ySCnU8mm5VNq0tW8LOZT_p300.jpg?quality=95&as=32x14,48x21,72x31,108x47,160x69,240x104,360x156,480x208,540x234,640x278,720x313,1080x469&from=bu&u=dq4_mNQJCFDnSF3jkqoLNE-KTlWg2euV1TedrN-vjbA&cs=1080x0",
+                model = "https://sun9-18.userapi.com/s/v1/ig2/00rmKnE6i8e4NJ-iyLe_fmIP9tP_jjJYoHoW7wm53dbWCrFhFyH7w0OFQjiAz3ccx979q3R9WK8kdjdTChjN11se.jpg?quality=95&as=32x28,48x42,72x63,108x95,160x140,240x210,360x315,480x420,540x473,640x560,720x631,1080x946,1280x1121&from=bu&cs=1280x0",
                 contentDescription = "Деталь",
                 modifier = Modifier
                     .fillMaxWidth()
