@@ -25,7 +25,7 @@ fun DynamicScreen(navController: NavController) {
             Text("Нажали кнопку $counter раз")
             Spacer(modifier = Modifier.height(16.dp))
             Button(onClick = { counter++ }) {
-                Text("Увеличить счетчик")
+                Text("Прибавить +1")
             }
         }
     }

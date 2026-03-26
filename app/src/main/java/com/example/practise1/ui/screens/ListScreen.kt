@@ -16,7 +16,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ListScreen(navController: NavController) {
-    Scaffold(topBar = { TopAppBar(title = { Text("Сетка") }) }) { paddingValues ->
+    Scaffold(topBar = { TopAppBar(title = { Text("Список") }) }) { paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()

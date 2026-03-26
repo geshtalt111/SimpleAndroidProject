@@ -28,7 +28,7 @@ fun DetailScreen(navController: NavController) {
             .fillMaxSize()
             .padding(padding)
             .padding(16.dp)) {
-            Text("Здесь детали выбранного элемента")
+            Text("Элемент — это составная часть, компонент сложной системы, структуры или множества")
         }
     }
 }
