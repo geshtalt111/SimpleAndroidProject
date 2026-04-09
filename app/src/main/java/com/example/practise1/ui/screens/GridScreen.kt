@@ -17,12 +17,12 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun GridScreen(navController: NavController) {
-    val itemsList = List(8) { "Элемент ${it + 1}" }
+    val itemsList = List(8) { index -> Pair("Раздел ${index + 1}", index + 1) }
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Сетка") },
+                title = { Text("Видеокарты") },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Color(0xFF03DAC5),
                     titleContentColor = Color.Black
@@ -40,11 +40,11 @@ fun GridScreen(navController: NavController) {
                 contentPadding = PaddingValues(8.dp),
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(itemsList) { item ->
+                items(itemsList) { (label, id) ->
                     Card(
                         modifier = Modifier
                             .padding(8.dp)
-                            .clickable { navController.navigate("screen_detail2") }
+                            .clickable { navController.navigate("screen_detail2/$id") }
                     ) {
                         Box(
                             modifier = Modifier
@@ -52,7 +52,7 @@ fun GridScreen(navController: NavController) {
                                 .height(100.dp),
                             contentAlignment = androidx.compose.ui.Alignment.Center
                         ) {
-                            Text(item)
+                            Text(label)
                         }
                     }
                 }

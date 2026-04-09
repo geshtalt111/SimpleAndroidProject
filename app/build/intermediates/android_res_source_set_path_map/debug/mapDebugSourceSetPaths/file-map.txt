@@ -1,0 +1,7 @@
+com.example.practise1.app-pngs-0 /Users/geshtalt/AndroidStudioProjects/Practise1/app/build/generated/res/pngs/debug
+com.example.practise1.app-updated_navigation_xml-1 /Users/geshtalt/AndroidStudioProjects/Practise1/app/build/generated/updated_navigation_xml/debug
+com.example.practise1.app-packageDebugResources-2 /Users/geshtalt/AndroidStudioProjects/Practise1/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.practise1.app-packageDebugResources-3 /Users/geshtalt/AndroidStudioProjects/Practise1/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.practise1.app-debug-4 /Users/geshtalt/AndroidStudioProjects/Practise1/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.practise1.app-debug-5 /Users/geshtalt/AndroidStudioProjects/Practise1/app/src/debug/res
+com.example.practise1.app-main-6 /Users/geshtalt/AndroidStudioProjects/Practise1/app/src/main/res
