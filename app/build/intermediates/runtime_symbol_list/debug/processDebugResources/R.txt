@@ -96,7 +96,17 @@ int drawable notification_template_icon_bg 0x7f040013
 int drawable notification_template_icon_low_bg 0x7f040014
 int drawable notification_tile_bg 0x7f040015
 int drawable notify_panel_notification_icon_bg 0x7f040016
+int drawable rtx4060 0x7f040018
+int drawable rtx4070 0x7f040019
+int drawable rtx4080 0x7f04001a
+int drawable rtx4090 0x7f04001b
 int drawable rtx5060 0x7f040017
+int drawable rtx5070 0x7f04001c
+int drawable rtx5080 0x7f04001d
+int drawable rtx5090 0x7f04001e
+int drawable rx7600 0x7f04001f
+int drawable rx7700 0x7f040020
+int drawable rx7900 0x7f040021
 int id accessibility_action_clickable_span 0x7f050000
 int id accessibility_custom_action_0 0x7f050001
 int id accessibility_custom_action_1 0x7f050002

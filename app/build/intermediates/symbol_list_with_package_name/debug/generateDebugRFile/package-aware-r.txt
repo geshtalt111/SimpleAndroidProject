@@ -8,7 +8,17 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable rtx4060
+drawable rtx4070
+drawable rtx4080
+drawable rtx4090
 drawable rtx5060
+drawable rtx5070
+drawable rtx5080
+drawable rtx5090
+drawable rx7600
+drawable rx7700
+drawable rx7900
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

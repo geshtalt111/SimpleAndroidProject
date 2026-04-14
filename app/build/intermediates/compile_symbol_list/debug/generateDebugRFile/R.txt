@@ -7,7 +7,17 @@ int color teal_700 0x0
 int color white 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
+int drawable rtx4060 0x0
+int drawable rtx4070 0x0
+int drawable rtx4080 0x0
+int drawable rtx4090 0x0
 int drawable rtx5060 0x0
+int drawable rtx5070 0x0
+int drawable rtx5080 0x0
+int drawable rtx5090 0x0
+int drawable rx7600 0x0
+int drawable rx7700 0x0
+int drawable rx7900 0x0
 int mipmap ic_launcher 0x0
 int mipmap ic_launcher_round 0x0
 int string app_name 0x0

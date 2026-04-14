@@ -17,7 +17,16 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun GridScreen(navController: NavController) {
-    val itemsList = List(8) { index -> Pair("Раздел ${index + 1}", index + 1) }
+    val itemsList = listOf(
+        Pair("RTX-SERIES", 1),
+        Pair("GTX-SERIES", 2),
+        Pair("AMD RX-SERIES", 3),
+        Pair("Intel Arc", 4),
+        Pair("Процессоры", 5),
+        Pair("Материнские платы", 6),
+        Pair("Оперативная память", 7),
+        Pair("Блоки питания", 8)
+    )
 
     Scaffold(
         topBar = {
